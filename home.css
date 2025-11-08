@@ -1,0 +1,68 @@
+body {
+   background-color: #f4f1e8;
+   color: #9b4819;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 30vh;
+}
+
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;   /*hello,i'm pia*/
+    font-size: 100px;
+    margin-top: 0vh;
+    margin-bottom: 0;   
+}
+
+h1 span {
+    display: inline;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;  
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 1.5;
+    white-space: nowrap;
+}
+
+.button1 {
+    font-family: 'Times New Roman', Times, serif;  
+    font-size: 16px;
+    color: #9b4819;
+    text-align: center;
+    margin-top: 20vh;
+
+}
+
+/* MEDIA QUERY*/ 
+
+@media  screen and (max-width: 600px) {     /*- if  the screen size gets smaller (mobile) these styles will apply*/    
+    body {
+        background-color: #f4f1e8;
+        color: #9b4819;
+    }
+
+    h1 {                            
+        font-size: 80px;
+        height auto;
+    }
+
+    h1 span {
+        display:block;
+    }
+
+    p {
+        font-size: 12px;
+    }
+    
+    .button1 {
+        font-size: 12px;
+}
+}
